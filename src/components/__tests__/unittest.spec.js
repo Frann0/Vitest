@@ -25,6 +25,6 @@ describe('Unit tests', () => {
     const userStore = useUserStore()
     userStore.addUser('John Doe')
     userStore.updateUser(2, 'Jane Doe')
-    expect(userStore.users[1]).toMatchObject({ id: 3, name: 'Jane Doe' })
+    expect(userStore.users[1]).toMatchObject({ id: 2, name: 'Jane Doe' })
   })
 })
